@@ -18,8 +18,10 @@ page = Page {
 		templatePath = 'resource://Content.Dimensions/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
-			menu = Menu
-			breadcrumb = Breadcrumb
+			menu = Menu {
+				entryLevel = 1
+				maximumLevels = 5
+			}
 		}
 		// These are your content areas, you can define as many as you want, just name them and the nodePath.
 		content {
