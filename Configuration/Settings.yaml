@@ -17,3 +17,19 @@ TYPO3:
             label: 'Deutsch'
             values: ['de']
             uriSegment: 'de'
+      'system':
+        # The default dimension that is applied when creating nodes without specifying a dimension
+        default: 'neos'
+        # The default preset to use if no URI segment was given when resolving languages in the router
+        defaultPreset: 'neos'
+        label: 'System'
+        icon: 'icon-book'
+        presets:
+          'neos':
+            label: 'Neos'
+            values: ['neos']
+            uriSegment: 'neos'
+          'typo3':
+            label: 'TYPO3'
+            values: ['typo3']
+            uriSegment: 'typo3'
