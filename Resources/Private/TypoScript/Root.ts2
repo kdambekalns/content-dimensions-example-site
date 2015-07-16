@@ -22,6 +22,9 @@ page = Page {
 				entryLevel = 1
 				maximumLevels = 5
 			}
+			dimensionMenu = DimensionMenu {
+				dimension = 'language'
+			}
 		}
 		// These are your content areas, you can define as many as you want, just name them and the nodePath.
 		content {
