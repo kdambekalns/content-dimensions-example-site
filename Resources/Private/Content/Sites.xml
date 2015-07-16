@@ -15,7 +15,30 @@
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
+    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>de</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2015-07-16T18:52:38+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:36+02:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:36+02:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+     </properties>
+    </variant>
     <node identifier="53f77796-ac13-e739-a310-3386493d8d90" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2015-07-16T18:52:38+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:36+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:36+02:00</lastPublicationDateTime>
+      <properties/>
+     </variant>
      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
@@ -58,6 +81,20 @@
      </variant>
     </node>
     <node identifier="498f17f4-1048-35ea-53e8-31635d67804f" nodeName="node-55a7d89986b8a">
+     <variant sortingIndex="250" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2015-07-16T18:52:38+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">content</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Content</title>
+      </properties>
+     </variant>
      <variant sortingIndex="250" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
@@ -73,6 +110,16 @@
       </properties>
      </variant>
      <node identifier="53f5c3ac-c9ab-14cb-c39e-f121a1ebb1cc" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2015-07-16T18:52:38+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
@@ -94,6 +141,20 @@
         <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:16:42+02:00</lastPublicationDateTime>
         <properties>
          <text __type="string">&lt;h1&gt;Content&lt;/h1&gt;&lt;p&gt;Obviously cat content should go here&lt;br/&gt;&lt;/p&gt;</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="3b36b563-7a6e-2dde-81bb-ac612f57f567" nodeName="node-55a7e176d72d6">
+       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="9" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:10+02:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2015-07-16T18:53:30+02:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Hier soll dann deutscher Content^WInhalt hin.&lt;br/&gt;&lt;/p&gt;</text>
         </properties>
        </variant>
       </node>

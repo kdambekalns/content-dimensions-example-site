@@ -13,3 +13,7 @@ TYPO3:
             label: 'English'
             values: ['en']
             uriSegment: 'en'
+          'de':
+            label: 'Deutsch'
+            values: ['de']
+            uriSegment: 'de'
