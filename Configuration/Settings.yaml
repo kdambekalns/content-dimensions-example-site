@@ -13,6 +13,9 @@ TYPO3:
             label: 'English'
             values: ['en']
             uriSegment: 'en'
+            constraints:
+              system:
+                'typo3': false
           'de':
             label: 'Deutsch'
             values: ['de']
