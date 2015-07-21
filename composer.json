@@ -1,13 +1,10 @@
 {
-    "name": "content/dimensions",
+    "name": "neos/content-dimensions-example",
     "type": "typo3-flow-site",
-    "description": "Add description here",
+    "description": "An example package on the use of content dimensions in Neos",
     "require": {
         "typo3/neos": "*",
         "typo3/neos-nodetypes": "*"
-    },
-    "suggest": {
-        "typo3/neos-seo": "*"
     },
     "autoload": {
         "psr-0": {
